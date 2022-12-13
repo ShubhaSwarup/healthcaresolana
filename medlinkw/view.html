@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="view.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="cotn_principal">
+            <div class="cont_centrar">
+            
+              <div class="cont_login">
+            <div class="cont_info_log_sign_up">
+              <!-- LOGIN -->
+                  <div class="col_md_login">
+            <div class="cont_ba_opcitiy">
+                    
+                    <h2>As a Doctor</h2>  
+              <p></p> 
+              <button class="btn_login" onclick="cambiar_login()">See Details</button>
+              </div>
+              </div>
+                <!-- SIGNUP -->
+            <div class="col_md_sign_up">
+            <div class="cont_ba_opcitiy">
+              <h2>As a Patient</h2>
+            
+              
+              <p></p>
+            
+              <button class="btn_sign_up" onclick="cambiar_sign_up()">See Details</button>
+            </div>
+              </div>
+                   </div>
+            
+                
+                <div class="cont_back_info">
+                   <div class="cont_img_back_grey">
+                   <img src="https://wallpapercave.com/wp/wp2968489.jpg" alt="" />
+                   </div>
+                   
+                </div>
+                <!-- Анимированные LOGIN и SIGNUP после нажатия на кнопку -->
+            <div class="cont_forms" >
+                <div class="cont_img_back_">
+                   <img src="https://wallpapercave.com/wp/wp2968489.jpg" alt="" />
+                   </div>
+             <div class="cont_form_login">
+            <a href="#" onclick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+               <h2>see details</h2>
+             <input type="text" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+              </div>
+              
+               <div class="cont_form_sign_up">
+            <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                 <h2>SIGN UP</h2>
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="User" />
+            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Confirm Password" />
+            <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+            
+              </div>
+            
+                </div>
+                
+              </div>
+             </div>
+            </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
